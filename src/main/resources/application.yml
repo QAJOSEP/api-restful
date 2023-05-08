@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/hotel_delete
+        username: postgres
+        password: M@xico12
+    jpa:
+        hibernate:
+            ddl-auto: update
+    security:
+        user:
+            name: sa
+            password: 123
+        
